@@ -1,3 +1,4 @@
+// makes the data in the .env file available
 require('dotenv').config();
 
 // import the Sequelize constructor from the library
