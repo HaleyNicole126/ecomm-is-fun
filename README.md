@@ -19,7 +19,7 @@
   To install this project, first clone the code from the repository to your computer. Run `npm install` from the root of the project to install the dependencies, which include the express, mysql2, sequelize, and dotenv packages. Next, use the MySQL shell to create the database by first entering the MySQL shell using `mysql -u root -p` and your MySQL password, and then `source db/schema.sql` once you're in the shell. Quit the shell and create a .env file using the .env.example at the root of the project (and remember to add it to your .gitignore file!) to set up the environment variables. Now you're ready to seed the database and start the application! 
 
   ## Usage
-  To seed the database, run `npm run seed`. Then, you can start your server using `npm start`. GET, POST, PUT, and DELETE routes have been defined for categories, products, and tags. These can be tested using Insomnia. 
+  To seed the database, run `npm run seed`. Then, you can start your server using `npm start`. GET, POST, PUT, and DELETE routes have been defined for categories, products, and tags. These can be tested using Insomnia, and this is demonstrated in the walkthrough video. 
 
   ## Contributing
   Contributions are welcome! Please reach out using the information in the **Questions** section below. 
@@ -28,7 +28,7 @@
   I used Insomnia to test the routes. This is demonstrated in the walkthrough video. 
 
   ## Walkthrough
-  - Link to walkthrough video: 
+  - Link to walkthrough video: https://youtu.be/Etb0wav_TNQ
 
   ## License 
 
